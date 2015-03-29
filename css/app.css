@@ -1,0 +1,64 @@
+/* Global */
+body {
+    padding-top: 15px;
+}
+
+.main-page-title {
+    width: inherit;
+}
+
+/* Pills */
+.nav-pills > .active > .category-item-pill,
+.nav-pills > .active > .category-item-pill:focus {
+    background-color: peachpuff;
+    color: #000;
+}
+
+[data-items-count="0"],
+[data-items-count="0"]:focus,
+[data-items-count="0"]:hover {
+    color: grey;
+    opacity: 0.7;
+}
+
+/* Product */
+.category-product {
+    margin-bottom: 30px;
+}
+
+.product-title {
+    font-size: 1.5em;
+    display: block;
+}
+
+.btn-add-to-cart .glyphicon::before {
+    font-size: 1.1em;
+}
+
+.cv-cat-title{
+    color: #0000f0;
+    font-size:1.5em;
+    font-weight: bold;
+}
+.paragraph-title{
+    font-weight: bold;
+    color: #0000f0;
+}
+
+/* Mobile */
+@media screen and (max-width: 767px) {
+    .category-title {
+        font-size: 1.4em;
+        text-align: right;
+    }
+
+    .cv-cat-title{
+        font-size: 1.3em;
+        color: #0000f0;
+    }
+
+    .cv-row{
+        /*text-align: right;*/
+        /*padding-left: 10px;*/
+    }
+}
